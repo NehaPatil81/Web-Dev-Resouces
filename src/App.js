@@ -97,6 +97,12 @@ function App() {
     <div className="app">
       <div className="header">
         <h1 id="heading">Web Development</h1>
+        <p>
+          <strong>
+            Check out some awesome resources to start your web developer
+            journey.
+          </strong>
+        </p>
         <button
           className="resource-type active"
           onClick={() => userInputHandler("bootcamp")}
